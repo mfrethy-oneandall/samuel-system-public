@@ -1,8 +1,11 @@
 # Samuel — Home Intelligence MCP Server
 
-MCP server that gives Claude live access to the Example Home HA config and state.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](requirements.txt)
 
-Runs as a standalone system on a dedicated Linux box (`samuel`), separate from the ha-config repository.
+Samuel is an MCP server and bridge that gives Claude live access to the Example Home HA config and state. It runs on a dedicated Linux box (`samuel`) alongside a read-only clone of `ha-config`.
+
+> **Note:** This is a sanitized copy of a live deployment. Personal identifiers, device IDs, and network details have been replaced with placeholders. To use it, substitute your own HA host, token, and entity IDs.
 
 ## Quick Start
 

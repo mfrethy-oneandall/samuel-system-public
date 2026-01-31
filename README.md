@@ -148,6 +148,12 @@ samuel-system (this repo)     ha-config (separate repo, read-only clone)
 └── .env
 ```
 
+## Related
+
+This server is one half of a two-repo setup:
+
+- **[ha-config-public](https://github.com/mfrethy-oneandall/ha-config-public)** — The Home Assistant configuration that Samuel reads. Modular packages, lighting standards, motion-aware rooms, and presence detection.
+
 ## Requirements
 
 - Python 3.10+

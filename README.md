@@ -1,5 +1,6 @@
 # Samuel — Home Intelligence MCP Server
 
+[![AI Augmented](https://img.shields.io/badge/AI%20Augmented-Claude%20MCP-6f42c1?logo=anthropic)](https://modelcontextprotocol.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](requirements.txt)
 

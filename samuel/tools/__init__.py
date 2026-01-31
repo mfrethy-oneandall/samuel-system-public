@@ -1,0 +1,1 @@
+"""Samuel MCP tool implementations."""

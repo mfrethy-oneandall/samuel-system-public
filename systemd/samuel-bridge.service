@@ -1,0 +1,16 @@
+[Unit]
+Description=Samuel Bridge REST Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=samuel
+WorkingDirectory=/home/samuel/samuel-system
+ExecStart=/home/samuel/samuel-system/.venv/bin/python -m samuel.bridge
+EnvironmentFile=/home/samuel/samuel-system/.env
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

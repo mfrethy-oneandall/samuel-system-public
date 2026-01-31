@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+
+# Environment (contains secrets)
+.env
+
+# Runtime
+logs/
+*.log
+
+# Data persistence (local state)
+data/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/

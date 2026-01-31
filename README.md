@@ -7,6 +7,8 @@
 Samuel is an MCP server and bridge that gives Claude live access to the Example Home HA config and state. It runs on a dedicated Linux box (`samuel`) alongside a read-only clone of `ha-config`.
 
 > **Note:** This is a sanitized copy of a live deployment. Personal identifiers, device IDs, and network details have been replaced with placeholders. To use it, substitute your own HA host, token, and entity IDs.
+>
+> Built for [Home Assistant](https://www.home-assistant.io/); not affiliated with or endorsed by the Home Assistant project or Open Home Foundation.
 
 ## Quick Start
 

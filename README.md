@@ -10,6 +10,31 @@ Samuel is an MCP server and bridge that gives Claude live access to the Example 
 >
 > Built for [Home Assistant](https://www.home-assistant.io/); not affiliated with or endorsed by the Home Assistant project or Open Home Foundation.
 
+### Relationship to Home Assistant
+
+Samuel is designed to operate **alongside an existing Home Assistant deployment**.
+
+This repository contains the Samuel **Gate** and **Brain** services:
+
+* Gate enforces authentication, allowlists, and safety policy
+* Brain performs observation, learning, and proposal generation
+
+Samuel **does not directly control devices**. All execution occurs through Home Assistant, and all proposed actions require explicit human confirmation.
+
+A complete deployment includes:
+
+* A Home Assistant configuration repo with Samuel integration
+* This Samuel service repo running alongside HA
+
+See the Home Assistant configuration here:
+
+* `ha-config-public`
+
+This separation is intentional:
+
+* Home Assistant remains deterministic and authoritative
+* Samuel remains advisory, inspectable, and constrained
+
 ## Quick Start
 
 ```bash
